@@ -58,6 +58,7 @@ document.onkeydown = function(event) {
         usedArray = [];
         userGuessesText.textContent = usedArray;
         winsText.textContent = wins;
+        alert("You won!");
         
     }
 
@@ -73,6 +74,7 @@ document.onkeydown = function(event) {
        usedArray = [];
        userGuessesText.textContent = usedArray;
        guessesLeft = 10;
+       alert("You lost!")
 
    }
 }
